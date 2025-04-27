@@ -1,4 +1,27 @@
 #page-header {
     background-color: #1a1b26;
     height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#header-name {
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    margin-right: 150px;
+}
+
+#header-links{
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-link {
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
 }
